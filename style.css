@@ -5,7 +5,6 @@ main {
 
 .title-header {
   font-family: "raleway";
-  text-decoration: none;
   color: #2e2f42;
   font-weight: 700;
   font-size: 18px;
@@ -14,7 +13,6 @@ main {
 }
 .title-footer {
   font-family: "raleway";
-  text-decoration: none;
   color: #f4f4fd;
   font-weight: 700;
   font-size: 18px;
@@ -23,21 +21,27 @@ main {
 }
 nav a {
   list-style-type: none;
-  text-decoration: none;
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
-  font-style:;
 }
 
-address {
+nav a:hover {
+  color: #404bbf;
+}
+
+address a {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
   color: #434455;
+}
+
+address a:hover {
+  color: #404bbf;
 }
 
 h1 {
@@ -59,7 +63,10 @@ button {
   width: 169px;
   height: 56px;
   cursor: pointer;
-  }
+}
+button:hover {
+  background-color: #404bbf;
+}
 
 .page-menu-list li {
   font-weight: 500;
